@@ -13,5 +13,5 @@ inputSpecs:
   persistent://orders/inbound/food-orders:
     schemaType: "avro"
 resources:
-  cpu: 0.5
+  cpu: 0.2
   ram: 500000000

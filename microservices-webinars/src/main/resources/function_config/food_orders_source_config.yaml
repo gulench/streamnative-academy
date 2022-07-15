@@ -6,5 +6,5 @@ topicName: "persistent://orders/inbound/food-orders"
 parallelism: 1
 processingGuarantees: ATLEAST_ONCE
 resources:
-  cpu: 0.5
+  cpu: 0.2
   ram: 500000000

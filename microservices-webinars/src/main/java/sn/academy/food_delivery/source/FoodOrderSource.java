@@ -19,7 +19,7 @@ public class FoodOrderSource implements Source<FoodOrder> {
 
     @Override
     public Record<FoodOrder> read() throws Exception {
-        Thread.sleep(500);
+        Thread.sleep(5000);
         FoodOrder food = foodOrderGenerator.generateOrder();
         logger.info(String.format("Sending Order: %s",food));
         return new FoodOrderRecord(food);
